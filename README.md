@@ -3,10 +3,10 @@ Just some low effort libraries that are quite useful. Some of these libraries ma
 
 If you still want to use this library. Start with #include "qclock.h".
 
-# things
-#include "qclock.h"
+## things
+### #include "qclock.h"
 create a type with your own upper and lower boundries. clock type will loop around "artificially" overflow. As the name suggests. useful for clocks and other similar stuff.
-#include "qstring.h"
+### #include "qstring.h"
 coming soon
-#include "qnotate.h"
+### #include "qnotate.h"
 coming soon
