@@ -5,7 +5,7 @@
 #include <cmath>
 
 namespace q {
-    #include "data-types/clock.cpp"
+    #include "clock/clock.cpp"
 }
 
 #endif
