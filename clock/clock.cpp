@@ -135,7 +135,7 @@ Clock::Clock(double max_val, double min_val) {
 }
 // friend
 std::ostream& operator << (std::ostream& o, Clock& in_clock){
-    o << (int) in_clock;
+    o << (double) in_clock;
     return o;
 }
 std::istream& operator >> (std::istream& i, Clock& in_clock){
